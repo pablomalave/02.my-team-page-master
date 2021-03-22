@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin: 5.07em auto auto auto;
+    width: 90%;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2.57em;/*36px*/
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.29em;/*18px*/
+    font-weight: 600;
+}
+
+h3{
+    font-weight: 600;
+}
+
+h4{
+    font-size: 0.71em;/* 10px */
+    font-weight: 400;
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    height: max-content;
+    margin-left: 0.5%;
+}
+
+img{
+    width: 139px;
+    height: 210px;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team_member{
+    position: relative;
+}
