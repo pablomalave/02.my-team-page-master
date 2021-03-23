@@ -113,3 +113,38 @@ img{
 .team #team_member_6{
     grid-area: card6;
 }
+
+
+/*-------Media Queries---------------*/
+/* 576px and up */
+@media(min-width: 576px){
+    .team{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr 1fr 3fr 1fr;
+        grid-template-areas: "card1 space1 card3"
+                            "card1 card2 card3"
+                            "space2 card2 space3"
+                            "card4 space4 card6"
+                            "card4 card5 card6"
+                            "space5 card5 space6";
+    }
+}
+
+/* 768px and up */
+@media(min-width: 768px){
+    body{
+        max-width: 691px;
+    }    
+}
+
+/*992 and up*/
+@media(min-width: 992px){
+    body{
+        max-width: 921px;
+    }
+
+    img{
+        width: 238px;
+        height: 341px;
+    }
+}
