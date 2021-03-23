@@ -13,8 +13,16 @@ body{
 
 footer{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    color: #bdbdbd;
+    margin-top: 10%;
+    text-align: center;
 }
+
+footer a {
+    font-family: 'Montserrat', sans-serif;
+    color: #4d4d4d;
+}
+
 
 header{
     display: flex;
@@ -25,15 +33,19 @@ h1{
     font-size: 2.57em;/*36px*/
     font-family: 'PT Serif', serif;
     font-weight: 700;
+    padding-bottom: 0.71em;/*25.55px*/
 }
 
 h2{
     font-size: 1.29em;/*18px*/
     font-weight: 600;
+    padding-bottom: 0.56em;/*10px*/
+    text-transform: uppercase;
 }
 
 h3{
     font-weight: 600;
+    font-size: 1em;
 }
 
 h4{
@@ -54,12 +66,50 @@ img{
     height: 210px;
 }
 
+.header_content{
+    padding: 2.28em 0;/* 32px*/
+}
+
 .team{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr 3fr 1fr 1fr 3fr 1fr;
+    grid-template-areas: "card1 space1"
+                        "card1 card2"
+                        "space2 card2"
+                        "card3 space3"
+                        "card3 card4"
+                        "space4 card4"
+                        "card5 space5"
+                        "card5 card6"
+                        "space6 card6";
+    justify-items: center;
 }
 
 .team_member{
     position: relative;
+}
+
+.team #team_member_1{
+    grid-area: card1;
+}
+
+.team #team_member_2{
+    grid-area: card2;
+}
+
+.team #team_member_3{
+    grid-area: card3;
+}
+
+.team #team_member_4{
+    grid-area: card4;
+}
+
+.team #team_member_5{
+    grid-area: card5;
+}
+
+.team #team_member_6{
+    grid-area: card6;
 }

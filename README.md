@@ -38,20 +38,18 @@
 
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Se muestra una pagina web donde se muestran los miembros de un equipo de Desarrollo Web.
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- Se utilizó CSS Grid para hacer la distribución de las tarjetas de los miembros del equipo.
+- Cada tarjeta muestra una foto, nombre y cargo de un miembro del equipo.
+- A cada tarjeta se le asignó un `id` y fué ubicado en su correspondiente posición del Grid.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML, CSS, CSS Grid.
+- Mobile First Design.
 
 ## Features
 
@@ -64,13 +62,16 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [Css Tricks. A Complete Guide to Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Tricks. An Introduction to the `fr` CSS unit ](https://css-tricks.com/introduction-fr-css-unit/)
 - [CSS Tricks. text-orientation](https://css-tricks.com/almanac/properties/t/text-orientation/)
+- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [Responsive Web Design - Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+
+
 
 ## Contact
 
 - Website [Pablo Malave - GithubPages](https://pablomalave.github.io/CV/)
 - GitHub [@pablomalave](https://github.com/pablomalave)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
