@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](images\myTeam.png)
+<img src="images\myTeam.png" alt="screenshoot" >
 
 A web page is displayed showing the members of a Web Development team.
 
