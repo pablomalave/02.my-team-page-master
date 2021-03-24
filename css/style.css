@@ -137,14 +137,40 @@ img{
     }    
 }
 
-/*992 and up*/
+/*992px and up*/
 @media(min-width: 992px){
     body{
         max-width: 921px;
+        margin-top: 7.86em;/*110px*/
     }
 
     img{
         width: 238px;
         height: 341px;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "title content";
+        margin-bottom: 10em;
+    }
+
+    h1{
+        grid-area: title;
+    }
+
+    h3, p{
+        font-size: 1.29em;/*18px*/
+    }
+
+    h4{
+        font-size: 0.86em;/*12px*/
+    }
+
+    .header_content{
+        grid-area: content;
+        padding: 0;
     }
 }
